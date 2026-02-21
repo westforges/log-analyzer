@@ -1,2 +1,14 @@
-# log-analyzer
-Instead of full production authentication (which can be misused), here’s a **safe JWT demo API** using Flask.
+# Log Analyzer
+
+CLI-инструмент для анализа лог-файлов.
+
+## Возможности
+
+- Подсчет уровней логирования
+- Быстрая сводка ошибок
+- Простая интеграция в DevOps-пайплайн
+
+## Использование
+
+```bash
+python cli.py system.log
